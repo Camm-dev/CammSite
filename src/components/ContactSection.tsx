@@ -1,15 +1,29 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Music } from "lucide-react";
+import { Mail, Music, MessageCircle } from "lucide-react";
 
 const ContactSection = () => {
   const contactMethods = [
+    {
+      icon: Mail,
+      title: "Email",
+      description: "Drop me a line for collaborations or just to say hello.",
+      action: "Send Email",
+      href: "mailto:camm.spraw@gmail.com"
+    },
     {
       icon: Music,
       title: "Message me on TikTok",
       description: "Available for freelance projects and interesting conversations.",
       action: "Message on TikTok",
       href: "https://www.tiktok.com/@camfnbrr"
+    },
+    {
+      icon: MessageCircle,
+      title: "Message me on Discord",
+      description: "Always up for a virtual chat and tech discussions.",
+      action: "Message on Discord",
+      href: "https://discord.com/users/za.cam_"
     }
   ];
 
@@ -26,11 +40,11 @@ const ContactSection = () => {
         </div>
 
         {/* Contact methods */}
-        <div className="flex justify-center mb-16">
+        <div className="grid md:grid-cols-3 gap-6 mb-16">
           {contactMethods.map((method, index) => (
             <Card 
               key={method.title}
-              className="group hover:shadow-calm transition-all duration-500 hover:scale-105 animate-fade-in-up bg-gradient-calm border-0 w-80"
+              className="group hover:shadow-calm transition-all duration-500 hover:scale-105 animate-fade-in-up bg-gradient-calm border-0"
               style={{ animationDelay: `${0.2 + index * 0.1}s` }}
             >
               <CardContent className="p-8 text-center">

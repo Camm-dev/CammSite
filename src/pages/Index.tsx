@@ -2,12 +2,12 @@ import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import ContactSection from "@/components/ContactSection";
-import SnowEffect from "@/components/SnowEffect";
+import SnowflakeEffect from "@/components/SnowflakeEffect";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background relative">
-      <SnowEffect />
+      <SnowflakeEffect />
       <HeroSection />
       <AboutSection />
       <ProjectsSection />
