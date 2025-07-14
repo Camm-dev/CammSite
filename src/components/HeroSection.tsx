@@ -13,8 +13,6 @@ const HeroSection = () => {
 
   return (
     <section className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden">
-      {/* Subtle overlay for depth */}
-      <div className="absolute inset-0 bg-gradient-primary opacity-5" />
       
       {/* Content */}
       <div className="text-center z-10 max-w-4xl mx-auto px-6">
