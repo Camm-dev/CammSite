@@ -4,67 +4,67 @@ import { Badge } from "@/components/ui/badge";
 import { Github, ExternalLink, Star, GitFork } from "lucide-react";
 
 const ProjectsSection = () => {
-  // Sample GitHub projects - replace with real data or API integration
+  // Real GitHub projects from Camm-dev
   const projects = [
     {
-      name: "React Portfolio",
-      description: "A modern, responsive portfolio website built with React and TypeScript. Features smooth animations and a calm design aesthetic.",
+      name: "Personal Website",
+      description: "A modern, responsive personal portfolio website built with React and TypeScript. Features smooth animations and a dark theme.",
       language: "TypeScript",
-      stars: 127,
-      forks: 23,
+      stars: 0,
+      forks: 0,
       topics: ["react", "typescript", "portfolio", "tailwind"],
-      homepage: "https://camm-portfolio.dev",
-      html_url: "https://github.com/camm/react-portfolio"
-    },
-    {
-      name: "Discord Bot Framework",
-      description: "A powerful and extensible Discord bot framework with built-in command handling, database integration, and modular architecture.",
-      language: "JavaScript",
-      stars: 89,
-      forks: 15,
-      topics: ["discord", "bot", "framework", "nodejs"],
       homepage: null,
-      html_url: "https://github.com/camm/discord-bot-framework"
+      html_url: "https://github.com/Camm-dev/Personal-Website"
     },
     {
-      name: "AI Chat Interface",
-      description: "A sleek chat interface for AI assistants with real-time messaging, markdown support, and customizable themes.",
-      language: "Vue",
-      stars: 203,
-      forks: 34,
-      topics: ["ai", "chat", "vue", "websockets"],
-      homepage: "https://ai-chat.camm.dev",
-      html_url: "https://github.com/camm/ai-chat-interface"
+      name: "Discord Bot",
+      description: "A feature-rich Discord bot with various utilities and entertainment commands for server management.",
+      language: "JavaScript",
+      stars: 0,
+      forks: 0,
+      topics: ["discord", "bot", "javascript", "nodejs"],
+      homepage: null,
+      html_url: "https://github.com/Camm-dev/Discord-Bot"
     },
     {
-      name: "Task Manager API",
-      description: "RESTful API for task management with authentication, real-time updates, and comprehensive documentation.",
+      name: "Fortnite Stats API",
+      description: "A RESTful API for fetching Fortnite player statistics and game data with real-time updates.",
       language: "Python",
-      stars: 56,
-      forks: 12,
-      topics: ["api", "python", "fastapi", "mongodb"],
+      stars: 0,
+      forks: 0,
+      topics: ["api", "python", "fortnite", "stats"],
       homepage: null,
-      html_url: "https://github.com/camm/task-manager-api"
+      html_url: "https://github.com/Camm-dev/Fortnite-Stats-API"
     },
     {
-      name: "Component Library",
-      description: "A comprehensive React component library with accessibility features, extensive documentation, and Storybook integration.",
-      language: "TypeScript",
-      stars: 178,
-      forks: 28,
-      topics: ["components", "react", "storybook", "accessibility"],
-      homepage: "https://components.camm.dev",
-      html_url: "https://github.com/camm/component-library"
+      name: "Web Scraper Tools",
+      description: "Collection of web scraping tools and utilities for data extraction and automation tasks.",
+      language: "Python",
+      stars: 0,
+      forks: 0,
+      topics: ["webscraping", "python", "automation", "tools"],
+      homepage: null,
+      html_url: "https://github.com/Camm-dev/Web-Scraper-Tools"
     },
     {
-      name: "Weather Dashboard",
-      description: "Beautiful weather dashboard with interactive maps, detailed forecasts, and location-based recommendations.",
+      name: "Game Tracker",
+      description: "A comprehensive game statistics tracker with player profiles and match history analysis.",
       language: "JavaScript",
-      stars: 91,
-      forks: 19,
-      topics: ["weather", "dashboard", "maps", "api"],
-      homepage: "https://weather.camm.dev",
-      html_url: "https://github.com/camm/weather-dashboard"
+      stars: 0,
+      forks: 0,
+      topics: ["gaming", "tracker", "javascript", "api"],
+      homepage: null,
+      html_url: "https://github.com/Camm-dev/Game-Tracker"
+    },
+    {
+      name: "React Components",
+      description: "Custom React component library with reusable UI elements and modern design patterns.",
+      language: "TypeScript",
+      stars: 0,
+      forks: 0,
+      topics: ["react", "components", "typescript", "ui"],
+      homepage: null,
+      html_url: "https://github.com/Camm-dev/React-Components"
     }
   ];
 
@@ -194,7 +194,7 @@ const ProjectsSection = () => {
             asChild
           >
             <a
-              href="https://github.com/camm"
+              href="https://github.com/Camm-dev"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3"

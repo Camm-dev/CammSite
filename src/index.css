@@ -8,41 +8,41 @@ All colors MUST be HSL. Inspired by calm purple/blue theme.
 
 @layer base {
   :root {
-    --background: 240 10% 4%;
-    --foreground: 240 5% 96%;
+    --background: 0 0% 3%;
+    --foreground: 0 0% 98%;
 
-    --card: 240 8% 8%;
-    --card-foreground: 240 5% 96%;
+    --card: 0 0% 8%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 240 8% 8%;
-    --popover-foreground: 240 5% 96%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 98%;
 
     --primary: 267 84% 81%;
-    --primary-foreground: 240 10% 4%;
+    --primary-foreground: 0 0% 3%;
 
-    --secondary: 240 6% 12%;
-    --secondary-foreground: 240 5% 96%;
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 240 6% 12%;
-    --muted-foreground: 240 4% 65%;
+    --muted: 0 0% 10%;
+    --muted-foreground: 0 0% 65%;
 
     --accent: 267 84% 81%;
-    --accent-foreground: 240 10% 4%;
+    --accent-foreground: 0 0% 3%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 240 6% 20%;
-    --input: 240 6% 12%;
+    --border: 0 0% 15%;
+    --input: 0 0% 10%;
     --ring: 267 84% 81%;
 
     --radius: 1rem;
 
-    /* Custom design tokens for calm theme */
+    /* Custom design tokens for dark theme inspired by guns.lol */
     --gradient-primary: linear-gradient(135deg, hsl(267 84% 81%), hsl(220 100% 70%));
-    --gradient-calm: linear-gradient(135deg, hsl(240 8% 8%), hsl(240 6% 12%));
-    --glow-primary: 0 0 40px hsl(267 84% 81% / 0.3);
-    --shadow-calm: 0 20px 60px -10px hsl(267 84% 81% / 0.1);
+    --gradient-calm: linear-gradient(135deg, hsl(0 0% 8%), hsl(0 0% 10%));
+    --glow-primary: 0 0 40px hsl(267 84% 81% / 0.4);
+    --shadow-calm: 0 20px 60px -10px hsl(267 84% 81% / 0.15);
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;

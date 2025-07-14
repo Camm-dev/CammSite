@@ -8,7 +8,7 @@ const HeroSection = () => {
     { icon: Github, href: "https://github.com/Camm-dev", label: "GitHub" },
     { icon: Twitter, href: "https://x.com/Camfv_", label: "Twitter" },
     { icon: Music, href: "https://www.tiktok.com/@camfnbrr", label: "TikTok" },
-    { icon: Music, href: "https://fortnitetracker.com/profile/all/za.cam_", label: "Fortnite Tracker" },
+    { icon: Music, href: "https://fortnitetracker.com/profile/all/Camm7x", label: "Fortnite Tracker" },
   ];
 
   return (
@@ -35,7 +35,7 @@ const HeroSection = () => {
             Camm
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-6">
-            Developer Creator Player
+            Developer • Creator • Player
           </p>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             Crafting digital experiences with passion and precision. Welcome to my corner of the internet.
@@ -55,7 +55,7 @@ const HeroSection = () => {
               >
                 <a
                   href={social.href}
-                  target="_blank"
+                  target={social.label === "Email" || social.label === "Fortnite Tracker" ? "_blank" : "_blank"}
                   rel="noopener noreferrer"
                   className="flex items-center gap-3"
                 >
