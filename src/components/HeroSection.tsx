@@ -20,7 +20,7 @@ const HeroSection = () => {
       <div className="text-center z-10 max-w-4xl mx-auto px-6">
         {/* Avatar */}
         <div className="animate-fade-in-up [animation-delay:0.2s] mb-8">
-          <div className="w-32 h-32 rounded-full mx-auto mb-6 shadow-glow overflow-hidden">
+          <div className="w-48 h-48 rounded-full mx-auto mb-6 shadow-glow overflow-hidden">
             <img 
               src={profilePicture} 
               alt="Camm's profile picture" 
