@@ -4,7 +4,6 @@ import profilePicture from "@/assets/profile-picture.png";
 
 const HeroSection = () => {
   const socialLinks = [
-    { icon: Mail, href: "mailto:camm.spraw@gmail.com", label: "Email" },
     { icon: Github, href: "https://github.com/Camm-dev", label: "GitHub" },
     { icon: Twitter, href: "https://x.com/Camfv_", label: "Twitter" },
     { icon: Music, href: "https://www.tiktok.com/@camfnbrr", label: "TikTok" },
@@ -18,7 +17,7 @@ const HeroSection = () => {
       <div className="text-center z-10 max-w-4xl mx-auto px-6">
         {/* Avatar */}
         <div className="animate-fade-in-up [animation-delay:0.2s] mb-8">
-          <div className="w-48 h-48 rounded-full mx-auto mb-6 shadow-glow overflow-hidden">
+          <div className="w-48 h-48 rounded-full mx-auto mb-6 overflow-hidden">
             <img 
               src={profilePicture} 
               alt="Camm's profile picture" 
