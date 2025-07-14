@@ -59,9 +59,9 @@ const ContactSection = () => {
                   asChild
                 >
                   <a
-                    href={method.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href={method.title === "Email" ? "/contact/email" : method.title === "Message me on Discord" ? "/contact/discord" : method.href}
+                    target={method.title === "Email" || method.title === "Message me on Discord" ? "_self" : "_blank"}
+                    rel={method.title === "Email" || method.title === "Message me on Discord" ? undefined : "noopener noreferrer"}
                   >
                     {method.action}
                   </a>

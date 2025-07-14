@@ -6,7 +6,7 @@ import SnowflakeEffect from "@/components/SnowflakeEffect";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background relative">
+    <div className="min-h-screen bg-gradient-calm relative">
       <SnowflakeEffect />
       <HeroSection />
       <AboutSection />
