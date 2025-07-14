@@ -8,41 +8,41 @@ All colors MUST be HSL. Inspired by calm purple/blue theme.
 
 @layer base {
   :root {
-    --background: 0 0% 3%;
-    --foreground: 0 0% 98%;
+    --background: 0 0% 1%;
+    --foreground: 0 0% 90%;
 
-    --card: 0 0% 8%;
-    --card-foreground: 0 0% 98%;
+    --card: 0 0% 2%;
+    --card-foreground: 0 0% 90%;
 
-    --popover: 0 0% 8%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 0 0% 2%;
+    --popover-foreground: 0 0% 90%;
 
-    --primary: 267 84% 81%;
-    --primary-foreground: 0 0% 3%;
+    --primary: 267 50% 40%;
+    --primary-foreground: 0 0% 90%;
 
-    --secondary: 0 0% 10%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 0 0% 3%;
+    --secondary-foreground: 0 0% 90%;
 
-    --muted: 0 0% 10%;
-    --muted-foreground: 0 0% 65%;
+    --muted: 0 0% 3%;
+    --muted-foreground: 0 0% 50%;
 
-    --accent: 267 84% 81%;
-    --accent-foreground: 0 0% 3%;
+    --accent: 267 50% 40%;
+    --accent-foreground: 0 0% 90%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 0 0% 90%;
 
-    --border: 0 0% 15%;
-    --input: 0 0% 10%;
-    --ring: 267 84% 81%;
+    --border: 0 0% 8%;
+    --input: 0 0% 3%;
+    --ring: 267 50% 40%;
 
     --radius: 1rem;
 
-    /* Custom design tokens for dark theme inspired by guns.lol */
-    --gradient-primary: linear-gradient(135deg, hsl(267 84% 81%), hsl(220 100% 70%));
-    --gradient-calm: linear-gradient(135deg, hsl(0 0% 8%), hsl(0 0% 10%));
-    --glow-primary: 0 0 40px hsl(267 84% 81% / 0.4);
-    --shadow-calm: 0 20px 60px -10px hsl(267 84% 81% / 0.15);
+    /* Custom design tokens for very dark theme */
+    --gradient-primary: linear-gradient(135deg, hsl(267 50% 40%), hsl(220 50% 30%));
+    --gradient-calm: linear-gradient(135deg, hsl(0 0% 1%), hsl(0 0% 2%));
+    --glow-primary: 0 0 20px hsl(267 50% 40% / 0.2);
+    --shadow-calm: 0 20px 60px -10px hsl(267 50% 40% / 0.05);
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;

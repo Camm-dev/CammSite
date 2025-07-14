@@ -5,25 +5,11 @@ import { Mail, Music, MessageCircle } from "lucide-react";
 const ContactSection = () => {
   const contactMethods = [
     {
-      icon: Mail,
-      title: "Email",
-      description: "Drop me a line for collaborations or just to say hello.",
-      action: "Send Email",
-      href: "mailto:camm.spraw@gmail.com"
-    },
-    {
       icon: Music,
       title: "Message me on TikTok",
       description: "Available for freelance projects and interesting conversations.",
       action: "Message on TikTok",
       href: "https://www.tiktok.com/@camfnbrr"
-    },
-    {
-      icon: MessageCircle,
-      title: "Message me on Discord",
-      description: "Always up for a virtual chat and tech discussions.",
-      action: "Message on Discord",
-      href: "https://discord.com/users/za.cam_"
     }
   ];
 
@@ -40,7 +26,7 @@ const ContactSection = () => {
         </div>
 
         {/* Contact methods */}
-        <div className="grid md:grid-cols-3 gap-6 mb-16">
+        <div className="grid md:grid-cols-1 gap-6 mb-16 max-w-md mx-auto">
           {contactMethods.map((method, index) => (
             <Card 
               key={method.title}
@@ -59,9 +45,9 @@ const ContactSection = () => {
                   asChild
                 >
                   <a
-                    href={method.title === "Email" ? "/contact/email" : method.title === "Message me on Discord" ? "/contact/discord" : method.href}
-                    target={method.title === "Email" || method.title === "Message me on Discord" ? "_self" : "_blank"}
-                    rel={method.title === "Email" || method.title === "Message me on Discord" ? undefined : "noopener noreferrer"}
+                    href={method.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {method.action}
                   </a>

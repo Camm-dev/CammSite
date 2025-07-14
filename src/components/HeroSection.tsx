@@ -12,9 +12,9 @@ const HeroSection = () => {
   ];
 
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden">
+    <section className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden bg-gradient-calm">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-primary opacity-20" />
+      <div className="absolute inset-0 bg-gradient-primary opacity-10" />
       
       {/* Content */}
       <div className="text-center z-10 max-w-4xl mx-auto px-6">
