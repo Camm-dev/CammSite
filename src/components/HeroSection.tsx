@@ -1,13 +1,14 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Github, Twitter, Linkedin, Instagram, Mail } from "lucide-react";
+import { ArrowDown, Github, Twitter, Mail, Music } from "lucide-react";
+import profilePicture from "@/assets/profile-picture.png";
 
 const HeroSection = () => {
   const socialLinks = [
-    { icon: Github, href: "https://github.com/camm", label: "GitHub" },
-    { icon: Twitter, href: "https://twitter.com/camm", label: "Twitter" },
-    { icon: Linkedin, href: "https://linkedin.com/in/camm", label: "LinkedIn" },
-    { icon: Instagram, href: "https://instagram.com/camm", label: "Instagram" },
-    { icon: Mail, href: "mailto:hello@camm.dev", label: "Email" },
+    { icon: Mail, href: "mailto:camm.spraw@gmail.com", label: "Email" },
+    { icon: Github, href: "https://github.com/Camm-dev", label: "GitHub" },
+    { icon: Twitter, href: "https://x.com/Camfv_", label: "Twitter" },
+    { icon: Music, href: "https://www.tiktok.com/@camfnbrr", label: "TikTok" },
+    { icon: Music, href: "https://fortnitetracker.com/profile/all/za.cam_", label: "Fortnite Tracker" },
   ];
 
   return (
@@ -19,8 +20,12 @@ const HeroSection = () => {
       <div className="text-center z-10 max-w-4xl mx-auto px-6">
         {/* Avatar */}
         <div className="animate-fade-in-up [animation-delay:0.2s] mb-8">
-          <div className="w-32 h-32 rounded-full bg-gradient-primary mx-auto mb-6 shadow-glow flex items-center justify-center text-3xl font-bold text-primary-foreground">
-            C
+          <div className="w-32 h-32 rounded-full mx-auto mb-6 shadow-glow overflow-hidden">
+            <img 
+              src={profilePicture} 
+              alt="Camm's profile picture" 
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
 
@@ -30,7 +35,7 @@ const HeroSection = () => {
             Camm
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-6">
-            Developer • Creator • Dreamer
+            Developer Creator Player
           </p>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             Crafting digital experiences with passion and precision. Welcome to my corner of the internet.

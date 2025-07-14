@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, MessageCircle, Coffee } from "lucide-react";
+import { Mail, Music, MessageCircle } from "lucide-react";
 
 const ContactSection = () => {
   const contactMethods = [
@@ -9,21 +9,21 @@ const ContactSection = () => {
       title: "Email",
       description: "Drop me a line for collaborations or just to say hello.",
       action: "Send Email",
-      href: "mailto:hello@camm.dev"
+      href: "mailto:camm.spraw@gmail.com"
+    },
+    {
+      icon: Music,
+      title: "Message me on TikTok",
+      description: "Available for freelance projects and interesting conversations.",
+      action: "Message on TikTok",
+      href: "https://www.tiktok.com/@camfnbrr"
     },
     {
       icon: MessageCircle,
-      title: "Let's Chat",
-      description: "Available for freelance projects and interesting conversations.",
-      action: "Start Conversation",
-      href: "https://cal.com/camm"
-    },
-    {
-      icon: Coffee,
-      title: "Coffee Chat",
-      description: "Always up for a virtual coffee and tech discussions.",
-      action: "Schedule Coffee",
-      href: "https://cal.com/camm/coffee"
+      title: "Message me on Discord",
+      description: "Always up for a virtual chat and tech discussions.",
+      action: "Message on Discord",
+      href: "https://discord.com/users/za.cam_"
     }
   ];
 
@@ -71,13 +71,6 @@ const ContactSection = () => {
           ))}
         </div>
 
-        {/* Footer quote */}
-        <div className="text-center animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
-          <blockquote className="text-lg italic text-muted-foreground max-w-2xl mx-auto">
-            "The best way to predict the future is to create it. Let's build something amazing together."
-          </blockquote>
-          <p className="text-sm text-muted-foreground mt-4">— Camm</p>
-        </div>
       </div>
     </section>
   );
