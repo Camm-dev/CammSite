@@ -6,7 +6,7 @@ const HeroSection = () => {
   const socialLinks = [
     { icon: Github, href: "https://github.com/Camm-dev", label: "GitHub" },
     { icon: Twitter, href: "https://x.com/Camfv_", label: "Twitter" },
-    { icon: Music, href: "https://www.tiktok.com/@camfnbrr", label: "TikTok" },
+    { icon: Music, href: "https://www.tiktok.com/@ilycammx", label: "TikTok" },
     { icon: Music, href: "https://fortnitetracker.com/profile/all/Camm7x", label: "Fortnite Tracker" },
   ];
 

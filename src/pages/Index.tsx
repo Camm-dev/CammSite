@@ -1,6 +1,5 @@
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
-import ProjectsSection from "@/components/ProjectsSection";
 import ContactSection from "@/components/ContactSection";
 import SnowflakeEffect from "@/components/SnowflakeEffect";
 
@@ -10,7 +9,6 @@ const Index = () => {
       <SnowflakeEffect />
       <HeroSection />
       <AboutSection />
-      <ProjectsSection />
       <ContactSection />
     </div>
   );
